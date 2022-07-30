@@ -1,5 +1,6 @@
 body {
   display: flex;
+  font-family: sans-serif;
   align-items: flex-start;
   justify-content: center;
   padding: 2rem 0.5rem 0.5rem;
@@ -17,13 +18,24 @@ body {
   align-items: center;
   justify-content: center;
   color: yellowgreen;
+  cursor: pointer;
+  font-size: 2em;
 }
 
-.right-border{
-    border-right: 1px solid indigo;
+.right-border {
+  border-right: 5px solid indigo;
 }
 
+.bottom-border {
+  border-bottom: 5px solid indigo;
+}
 
-.bottom-border{
-    border-bottom: 1px solid indigo;
+.x-hover:hover::after {
+  content: "X";
+  opacity: 0.4;
+}
+
+.o-hover:hover::after {
+  content: "O";
+  opacity: 0.4;
 }
