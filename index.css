@@ -1,0 +1,29 @@
+body {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 2rem 0.5rem 0.5rem;
+  background-color: black;
+}
+
+.board {
+  display: grid;
+  grid-template-columns: 100px 100px 100px;
+  grid-template-rows: 100px 100px 100px;
+}
+
+.tile {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: yellowgreen;
+}
+
+.right-border{
+    border-right: 1px solid indigo;
+}
+
+
+.bottom-border{
+    border-bottom: 1px solid indigo;
+}
